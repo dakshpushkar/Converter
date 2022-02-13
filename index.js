@@ -22,7 +22,7 @@ convertbtn.addEventListener("click", () => {
     } else if (select1value === "Decimal" && select2value === "Hexadecimal") {
       let decimalTOhexa = Number(inputvalue).toString(16);
       answer.innerHTML = decimalTOhexa;
-    } else if (select1value === "Decimal" && select2value === "Octa") {
+    } else if (select1value === "Decimal" && select2value === "Octal") {
       let decimalTooctal = Number(inputvalue).toString(8);
       answer.innerHTML = decimalTooctal;
     } else if (select1value === "Binary" && select2value === "Decimal") {
